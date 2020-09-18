@@ -40,14 +40,17 @@ main {
   padding: 2em;
   text-align: center;
 }
-.intro {
+
+main, .intro, .profile {
   margin: 0 auto;
+}
+
+.intro {
   width: 50%;
 }
 
 .profile {
   display: block;
-  margin: 0 auto;
   border-radius: 50%;
   border: 2px solid white;
 }

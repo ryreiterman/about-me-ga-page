@@ -1,0 +1,78 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  border-bottom: 2px solid grey;
+  margin-bottom: 2em;
+  padding: .5em;
+  font-size: 1.3rem;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/scenic_sept_14_2020_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 95%;
+  min-height: 75vh;
+  color: #f2f2f2;
+  border-radius: 1%;
+  box-shadow: 3px 3px 2px #888888;
+  padding: 2em;
+}
+.intro {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.profile {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.bio {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.form {
+  text-align: center;
+}
+
+input {
+   border: 0;
+   padding: 8px;
+   font-size: 16px;
+   text-align: center;
+}
+
+input[type="submit"] {
+   background: #cc0000;
+   color: #f2f2f2;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}

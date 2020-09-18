@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-header {
+header, input, footer {
   text-align: center;
 }
 
@@ -38,6 +38,7 @@ main {
   border-radius: 1%;
   box-shadow: 3px 3px 2px #888888;
   padding: 2em;
+  text-align: center;
 }
 .intro {
   margin: 0 auto;
@@ -52,19 +53,13 @@ main {
 }
 
 .bio {
-  text-align: center;
   line-height: 1.5em;
-}
-
-.form {
-  text-align: center;
 }
 
 input {
    border: 0;
    padding: 8px;
    font-size: 16px;
-   text-align: center;
 }
 
 input[type="submit"] {
@@ -73,6 +68,5 @@ input[type="submit"] {
 }
 
 footer {
-  text-align: center;
   padding: 1em;
 }
